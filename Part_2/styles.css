@@ -1,0 +1,187 @@
+/* 🌟 General Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F5F3EE;
+}
+
+/* 🌟 Landing Page */
+.landing-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 🌟 Header */
+header {
+    background: #A67B5B;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+}
+
+/* 🌟 Navigation */
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+/* 🌟 Customer Testimonials Section */
+.testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.customer-quote {
+    width: 405px;
+    padding: 32px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.customer-quote p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+/* 🌟 Customer Avatar */
+.customer-avatar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.customer-avatar img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+/* 🌟 Button Styles */
+button {
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background: #000000;
+    color: #FFFFFF;
+    border: none;
+}
+
+.secondary-btn {
+    background: #E6E6E6;
+    color: #000000;
+    border: none;
+}
+
+/* 🌟 About Section */
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 80px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-title {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: -0.02em;
+}
+
+.about-description {
+    font-size: 24px;
+    line-height: 150%;
+    color: #828282;
+}
+
+/* 🌟 Collections Section */
+.collections {
+    text-align: center;
+    padding: 60px;
+}
+
+.collections h2 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+}
+
+.collection-cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 40px;
+}
+
+.collection-card {
+    width: 405px;
+    text-align: center;
+}
+
+.collection-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.collection-title {
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+/* 🌟 Footer */
+footer {
+    background: #F5F3EE;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
