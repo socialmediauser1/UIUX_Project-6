@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+/* Home Section */
+#home img {
+    display: block;
+    margin: 10px auto;
+    border: 2px solid black;
+    width: 300px;
+    height: auto;
+}
+
+/* About Section */
+#about ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Contact Section */
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea, input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Table */
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #ddd;
+}
